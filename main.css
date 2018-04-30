@@ -137,7 +137,7 @@
 
 
 .project2 {
-	height:800px;
+	height:400px;
 }
 
 .project2MainHeader {
@@ -166,6 +166,11 @@
 	text-decoration: none;
 }
 
+.techUp,
+.techUpLink {
+	display:block;
+}
+
 .project2Content {
 	width:49%;
 	text-align: center;
@@ -192,11 +197,10 @@
 
 .project1 {
 	height:400px;
-
 }
 
 .project1MainHeader {
-	margin:10px;
+	margin:30px;
 	text-align: center;	
 }
 
@@ -206,24 +210,24 @@
 }
 
 .medicalContainer {
-	width:49%;
+	width:48%;
 	text-align: center;
 }
 
 .medical {
-	width:450px;
-	height:250px;
+	width:90%;
+	height:40%;
 }
 
-.doctorFinder {
-	width:380px;
+.doctorFinderLink {
+	font-size: 20px;
 	color:black;
 	text-decoration: none;
 }
 
 .project1Content {
 	width:49%;
-	padding-bottom:200px;
+	text-align: center;
 }
 
 .project1Text {
@@ -231,10 +235,13 @@
 	font-size:27px;
 }
 
-.project1Header,
+.project1MainHeader {
+	margin:30px;
+}
+
+.project1MainHeader,
 .stackDiv {
 	text-align: center;
-	margin:20px;
 }
 
 

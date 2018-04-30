@@ -20,14 +20,23 @@
 	.bioContainer {
 		font-size:27px;
 	}
+
+	.project2Content {
+		width:47%;
+	}
+
+	.project2Text {
+		font-size:22px;
+	}
 }
 
 @media only screen and (max-width: 825px) {
 	.project3Text {
 		font-size:22px;
 	}
+
 	.project2Text {
-		font-size:22px;
+		font-size:21px;
 	}
 }
 
@@ -46,7 +55,11 @@
 	}
 
 	.project2Text {
-		font-size:20px;
+		font-size:19px;
+	}
+
+	.project1Text {
+		font-size:24px;
 	}
 }
 
@@ -76,29 +89,103 @@
 
 	.techUpContainer,
 	.project2Content {
-		display:block;
+		width:100vw;
+		display: block;
+		position:absolute;
 	}
 
 	.techUp {
 		width:70%;
 		height:40%;
+		position:relative;
+		left:12%;
+	}
+
+	.techUp,
+	.techUpLink {
+		display:block;
 	}
 
 	.project2Text {
 		font-size:24px;
-		margin-top:20px;
-		margin-bottom: 20px;
+		margin:20px;
+		position:relative;
+		top:300px;
+	}
+
+	.project2Tech {
+		position:relative;
+		top:300px;
+	}
+
+	.project1 {
+		height:680px;
+	}
+
+	.project1MainHeader {
+		margin-top:300px;
+	}
+
+	.medical {
+		width:70%;
+		height:40%;
+		position:relative;
+		left:12%;
+	}
+
+	.medical,
+	.doctorFinderLink {
+		display: block;
+	}
+
+	.doctorFinderLink {
+		margin-bottom:30px;
+	}
+
+	.project1Header {
+		margin:30px;
 	}
 
 	.medicalContainer,
 	.project1Content {
 		display: block;
+		width:100vw;
 	}
 }
 
 @media only screen and (max-width: 680px) {
 	.bioContainer {
 		font-size:22px;
+	}
+
+	.project2Text {
+		font-size:22px;
+	}
+
+	.project2Text,
+	.project2Tech {
+		top:280px;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.project2Text,
+	.project2Tech {
+		top:250px;
+	}
+
+	.project2 {
+		height:400px;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+	.project2Text {
+		font-size:21px;
+	}
+
+	.project2 {
+		height:350px;
 	}
 }
 
@@ -108,8 +195,21 @@
 		height:200px;
 	}
 
+	.project3 {
+		height:580px;
+	}
+
 	.bioContainer {
 		font-size:21px;
+	}
+
+	.project2Text,
+	.project2Tech {
+		top:220px;
+	}
+
+	.project2 {
+		height:300px;
 	}
 }
 
@@ -156,6 +256,15 @@
 		margin-top:10px;
 	}
 
+	.project2Text,
+	.project2Tech {
+		top:200px;
+	}
+
+	.project1Text {
+		font-size:22;
+	}
+
 	.HTML,
 	.CSS,
 	.JavaScript,
@@ -169,9 +278,24 @@
 	}
 }
 
+@media only screen and (max-width: 410px) {
+	.project2Text,
+	.project2Tech {
+		top:190px;
+	}
+}
+
 @media only screen and (max-width: 320px) {
 	.project3MainHeader {
 		margin-top:50px;
 	}
 
+	.project2Text,
+	.project2Tech {
+		top:150px;
+	}
+
+	.project2 {
+		height:330px;
+	}
 }
