@@ -3,11 +3,41 @@
 		font-size:28px;
 		margin-left:10px;
 	}
+
+	.project3Text {
+		font-size:25px;
+	}
+
+	.gymBuddy {
+		width:396px;
+		height:220px;
+	}
 }
 
 @media only screen and (max-width: 900px) {
 	.bioContainer {
 		font-size:27px;
+	}
+
+	.project3Text {
+		font-size:23px;
+	}
+
+	.gymBuddy {
+		width:342px;
+		height:190px;
+	}
+}
+
+@media only screen and (max-width: 825px) {
+	.project3Text {
+		font-size:22px;
+	}
+}
+
+@media only screen and (max-width: 790px) {
+	.project3Text {
+		font-size:21px;
 	}
 }
 
@@ -20,11 +50,48 @@
 	.bioContainer {
 		font-size:25px;
 	}
+
+	.project3Text {
+		font-size:20px;
+	}
+
+	.gymBuddy {
+		width:306px;
+		height:170px;
+	}
+}
+
+@media only screen and (max-width: 715px) {
+	.project3Text {
+		font-size:19px;
+	}
 }
 
 @media only screen and (max-width: 680px) {
 	.bioContainer {
 		font-size:22px;
+	}
+
+	.gymBuddyContainer,
+	.project3Content {
+		width:100vw;
+		display: block;
+	}
+
+	.project3Header {
+		position: relative;
+		left:20%;
+	}
+
+	.gymBuddy {
+		width:70%;
+		height:40%;
+		position:relative;
+		left:12%;
+	}
+
+	.project3Text {
+		font-size:24px;
 	}
 }
 
@@ -82,3 +149,5 @@
 		margin-top:10px;
 	}
 }
+
+@media only screen and (max-width: px) {

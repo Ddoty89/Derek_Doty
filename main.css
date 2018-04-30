@@ -38,6 +38,7 @@
 	width:60%;
 	font-size:29px;
 	overflow: auto;
+	margin-left: 10px;
 }
 
 .bioImages {
@@ -89,45 +90,41 @@
 	display: inline-block;
 }
 
+.gymBuddy,
+.gymBuddyLink{
+	display:block;
+}
+
 .gymBuddyContainer {
-	width:49%;
+	width:48%;
 	text-align: center;
+	margin-left: 10px;
 }
 
 .gymBuddy {
+
 	width:450px;
 	height:250px;
 }
 
 .gymBuddyLink {
-	width:380px;
+	width:400px;
 	color:black;
 	text-decoration: none;
 }
 
 .project3Content {
-	width:49%;
-	padding-bottom:200px;
+	width:40%;
 }
 
 .project3Text {
 	text-align: center;
-	font-size:30px;
+	font-size:27px;
 }
 
 .project3Header,
 .stackDiv {
 	text-align: center;
-	margin:20px;
-}
-
-.HTML,
-.CSS,
-.JavaScript,
-.JQuery {
-	width:50px;
-	height:50px;
-	margin:5px 20px;
 }
 
 
@@ -174,7 +171,7 @@
 
 .project2Text {
 	text-align: center;
-	font-size:30px;
+	font-size:27px;
 }
 
 .project2Header,
@@ -182,16 +179,6 @@
 	text-align: center;
 	margin:20px;
 }
-
-.HTML,
-.CSS,
-.JavaScript,
-.JQuery {
-	width:50px;
-	height:50px;
-	margin:5px 20px;
-}
-
 
 /*PROJECT 2*/
 
@@ -216,6 +203,7 @@
 .medicalContainer {
 	width:49%;
 	text-align: center;
+	margin-left: 10px;
 }
 
 .medical {
@@ -236,25 +224,13 @@
 
 .project1Text {
 	text-align: center;
-	font-size:30px;
+	font-size:27px;
 }
 
 .project1Header,
 .stackDiv {
 	text-align: center;
 	margin:20px;
-}
-
-.HTML,
-.CSS,
-.JavaScript,
-.JQuery,
-.React,
-.Mongoose,
-.Node {
-	width:50px;
-	height:50px;
-	margin:5px 20px;
 }
 
 
@@ -280,3 +256,14 @@
 }
 
 /*FOOTER*/
+
+.HTML,
+.CSS,
+.JavaScript,
+.JQuery,
+.React,
+.Mongoose,
+.Node {
+	width:35px;
+	height:35px;
+}
