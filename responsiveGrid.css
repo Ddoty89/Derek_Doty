@@ -46,10 +46,6 @@
 		height:250px;
 	}
 
-	.bioContainer {
-		font-size:25px;
-	}
-
 	.project3Text {
 		font-size:21px;
 	}
@@ -64,6 +60,43 @@
 }
 
 @media only screen and (max-width: 715px) {
+	.bio {
+		height:430px;
+	}
+
+	.bioContainer {
+		font-size:22px;
+		width:100vw;
+		margin:10px;
+	}
+
+	.bioImages {
+		margin-left: 15px;
+		width:100vw;
+	}
+
+	.bioContainer,
+	.bioImages {
+		display:block;
+	}
+
+	.coding,
+	.database,
+	.files {
+		width:30%;
+		display: inline;
+		height:9%;
+	}
+
+	.database {
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+
+	.p2 {
+		margin-top:10px;
+	}
+
 	.project3 {
 		height:680px;
 	}
@@ -218,43 +251,6 @@
 		width:100vw;
 		height:150px;
 	}
-    .bio {
-		height:430px;
-		overflow: scroll;
-	}
-
-	.bioContainer {
-		font-size:20px;
-		width:100vw;
-		margin:10px;
-	}
-
-	.bioImages {
-		margin-left: 15px;
-		width:100vw;
-	}
-
-	.bioContainer,
-	.bioImages {
-		display:block;
-	}
-
-	.coding,
-	.database,
-	.files {
-		width:31%;
-		display: inline;
-		height:10%;
-	}
-
-	.database {
-		margin-top:0px;
-		margin-bottom:0px;
-	}
-
-	.p2 {
-		margin-top:10px;
-	}
 
 	.project2Text,
 	.project2Tech {
@@ -284,6 +280,11 @@
 		top:190px;
 	}
 }
+
+@media only screen and (max-width: 340px) {
+	.project3MainHeader {
+		margin-top:40px;
+	}
 
 @media only screen and (max-width: 320px) {
 	.project3MainHeader {
