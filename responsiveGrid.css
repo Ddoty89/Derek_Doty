@@ -1,4 +1,7 @@
 @media only screen and (max-width: 1000px) {
+	.hero {
+		position:static;
+	}
 	.bioContainer {
 		font-size:28px;
 		margin-left:10px;
@@ -7,25 +10,11 @@
 	.project3Text {
 		font-size:25px;
 	}
-
-	.gymBuddy {
-		width:396px;
-		height:220px;
-	}
 }
 
 @media only screen and (max-width: 900px) {
 	.bioContainer {
 		font-size:27px;
-	}
-
-	.project3Text {
-		font-size:23px;
-	}
-
-	.gymBuddy {
-		width:342px;
-		height:190px;
 	}
 }
 
@@ -37,7 +26,7 @@
 
 @media only screen and (max-width: 790px) {
 	.project3Text {
-		font-size:21px;
+		font-size:23px;
 	}
 }
 
@@ -52,35 +41,19 @@
 	}
 
 	.project3Text {
-		font-size:20px;
-	}
-
-	.gymBuddy {
-		width:306px;
-		height:170px;
-	}
-}
-
-@media only screen and (max-width: 715px) {
-	.project3Text {
 		font-size:19px;
 	}
 }
 
-@media only screen and (max-width: 680px) {
-	.bioContainer {
-		font-size:22px;
+@media only screen and (max-width: 715px) {
+	.project3 {
+		height:680px;
 	}
 
 	.gymBuddyContainer,
 	.project3Content {
 		width:100vw;
 		display: block;
-	}
-
-	.project3Header {
-		position: relative;
-		left:20%;
 	}
 
 	.gymBuddy {
@@ -92,6 +65,14 @@
 
 	.project3Text {
 		font-size:24px;
+		margin-top:20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+	.bioContainer {
+		font-size:22px;
 	}
 }
 
@@ -148,6 +129,23 @@
 	.p2 {
 		margin-top:10px;
 	}
+
+	.HTML,
+	.CSS,
+	.JavaScript,
+	.JQuery,
+	.React,
+	.Mongoose,
+	.Node {
+		width:35px;
+		height:35px;
+		margin:0px;
+	}
 }
 
-@media only screen and (max-width: px) {
+@media only screen and (max-width: 320px) {
+	.project3MainHeader {
+		margin-top:50px;
+	}
+
+}

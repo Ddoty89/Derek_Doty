@@ -76,12 +76,12 @@
 
 
 .project3 {
-	height:360px;
+	height:400px;
 
 }
 
 .project3MainHeader {
-	margin:10px;
+	margin:30px;
 	text-align: center;	
 }
 
@@ -102,24 +102,27 @@
 }
 
 .gymBuddy {
-
-	width:450px;
-	height:250px;
+	width:90%;
+	height:40%;
 }
 
 .gymBuddyLink {
-	width:400px;
 	color:black;
 	text-decoration: none;
+	font-size:20px;
 }
 
 .project3Content {
-	width:40%;
+	width:50%;
+	text-align: center;
 }
 
 .project3Text {
-	text-align: center;
 	font-size:27px;
+}
+
+.project3Header {
+	margin:30px;
 }
 
 .project3Header,
@@ -203,7 +206,6 @@
 .medicalContainer {
 	width:49%;
 	text-align: center;
-	margin-left: 10px;
 }
 
 .medical {
@@ -266,4 +268,5 @@
 .Node {
 	width:35px;
 	height:35px;
+	margin:0px 5px;
 }
