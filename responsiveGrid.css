@@ -97,6 +97,10 @@
 		margin-top:10px;
 	}
 
+	.project3MainHeader {
+		margin-top:100px;
+	}
+
 	.project3 {
 		height:680px;
 	}
@@ -120,6 +124,9 @@
 		margin-bottom: 20px;
 	}
 
+	.project2MainHeader {
+		margin-top:80px;
+	}
 	.techUpContainer,
 	.project2Content {
 		width:100vw;
@@ -232,12 +239,16 @@
 		height:200px;
 	}
 
+	.bioContainer {
+		font-size:21px;
+	}
+
 	.project3 {
 		height:580px;
 	}
 
-	.bioContainer {
-		font-size:21px;
+	.project2MainHeader {
+		margin-top:100px;
 	}
 
 	.project2Text,
@@ -257,7 +268,7 @@
 	}
 
 	.project3MainHeader {
-		margin-top:60px;
+		margin-top:100px;
 	}
 
 	.project2Text,
@@ -283,6 +294,10 @@
 }
 
 @media only screen and (max-width: 410px) {
+	.project2MainHeader {
+		margin-top:80px;
+	}
+
 	.project2Text,
 	.project2Tech {
 		top:190px;
@@ -291,12 +306,21 @@
 
 @media only screen and (max-width: 340px) {
 	.project3MainHeader {
-		margin-top:100px;
+		margin-top:140px;
 	}
+
+	.project2MainHeader {
+		margin-top:70px;
+	}
+}
 
 @media only screen and (max-width: 320px) {
 	.project3MainHeader {
-		margin-top:110px;
+		margin-top:150px;
+	}
+
+	.project2MainHeader {
+		margin-top:60px;
 	}
 
 	.project2Text,
