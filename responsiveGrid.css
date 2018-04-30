@@ -213,6 +213,10 @@
 }
 
 @media only screen and (max-width: 590px) {
+	.project3MainHeader {
+		margin-top:60px;
+	}
+
 	.project2Text {
 		font-size:21px;
 	}
@@ -252,6 +256,10 @@
 		height:150px;
 	}
 
+	.project3MainHeader {
+		margin-top:60px;
+	}
+
 	.project2Text,
 	.project2Tech {
 		top:200px;
@@ -283,12 +291,12 @@
 
 @media only screen and (max-width: 340px) {
 	.project3MainHeader {
-		margin-top:40px;
+		margin-top:100px;
 	}
 
 @media only screen and (max-width: 320px) {
 	.project3MainHeader {
-		margin-top:50px;
+		margin-top:110px;
 	}
 
 	.project2Text,
