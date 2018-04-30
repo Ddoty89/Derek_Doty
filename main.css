@@ -137,12 +137,11 @@
 
 
 .project2 {
-	height:360px;
-
+	height:800px;
 }
 
 .project2MainHeader {
-	margin:10px;
+	margin:30px;
 	text-align: center;	
 }
 
@@ -152,35 +151,38 @@
 }
 
 .techUpContainer {
-	width:49%;
+	width:48%;
 	text-align: center;
 }
 
 .techUp {
-	width:450px;
-	height:250px;
+	width:90%;
+	height:40%;
 }
 
-.tech-Up {
-	width:380px;
+.techUpLink {
+	font-size:20px;
 	color:black;
 	text-decoration: none;
 }
 
 .project2Content {
 	width:49%;
-	padding-bottom:200px;
+	text-align: center;
 }
 
 .project2Text {
-	text-align: center;
 	font-size:27px;
+}
+
+.project2Header {
+	margin:30px;
 }
 
 .project2Header,
 .stackDiv {
 	text-align: center;
-	margin:20px;
+
 }
 
 /*PROJECT 2*/
@@ -189,7 +191,7 @@
 
 
 .project1 {
-	height:360px;
+	height:400px;
 
 }
 
@@ -269,4 +271,8 @@
 	width:35px;
 	height:35px;
 	margin:0px 5px;
+}
+
+.hidden {
+	display:none;
 }

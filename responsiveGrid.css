@@ -10,6 +10,10 @@
 	.project3Text {
 		font-size:25px;
 	}
+
+	.project2Text {
+		font-size:25px;
+	}
 }
 
 @media only screen and (max-width: 900px) {
@@ -22,11 +26,8 @@
 	.project3Text {
 		font-size:22px;
 	}
-}
-
-@media only screen and (max-width: 790px) {
-	.project3Text {
-		font-size:23px;
+	.project2Text {
+		font-size:22px;
 	}
 }
 
@@ -41,7 +42,11 @@
 	}
 
 	.project3Text {
-		font-size:19px;
+		font-size:21px;
+	}
+
+	.project2Text {
+		font-size:20px;
 	}
 }
 
@@ -67,6 +72,27 @@
 		font-size:24px;
 		margin-top:20px;
 		margin-bottom: 20px;
+	}
+
+	.techUpContainer,
+	.project2Content {
+		display:block;
+	}
+
+	.techUp {
+		width:70%;
+		height:40%;
+	}
+
+	.project2Text {
+		font-size:24px;
+		margin-top:20px;
+		margin-bottom: 20px;
+	}
+
+	.medicalContainer,
+	.project1Content {
+		display: block;
 	}
 }
 
