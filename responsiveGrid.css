@@ -31,6 +31,10 @@
 }
 
 @media only screen and (max-width: 825px) {
+	.bioContainer {
+		font-size:26px;
+	}
+
 	.project3Text {
 		font-size:22px;
 	}
@@ -98,7 +102,7 @@
 	}
 
 	.project3MainHeader {
-		margin-top:100px;
+		margin-top:120px;
 	}
 
 	.project3 {
@@ -125,7 +129,7 @@
 	}
 
 	.project2MainHeader {
-		margin-top:80px;
+		margin-top:140px;
 	}
 	.techUpContainer,
 	.project2Content {
@@ -163,7 +167,7 @@
 	}
 
 	.project1MainHeader {
-		margin-top:300px;
+		margin-top:450px;
 	}
 
 	.medical {
@@ -190,6 +194,10 @@
 	.project1Content {
 		display: block;
 		width:100vw;
+	}
+
+	.footer {
+		margin-top:100px;
 	}
 }
 
@@ -221,7 +229,7 @@
 
 @media only screen and (max-width: 590px) {
 	.project3MainHeader {
-		margin-top:60px;
+		margin-top:130px;
 	}
 
 	.project2Text {
@@ -248,7 +256,7 @@
 	}
 
 	.project2MainHeader {
-		margin-top:100px;
+		margin-top:170px;
 	}
 
 	.project2Text,
@@ -272,7 +280,7 @@
 	}
 
 	.project3MainHeader {
-		margin-top:100px;
+		margin-top:120px;
 	}
 
 	.project2Text,
@@ -299,7 +307,7 @@
 
 @media only screen and (max-width: 410px) {
 	.project2MainHeader {
-		margin-top:80px;
+		margin-top:170px;
 	}
 
 	.project2Text,
@@ -314,7 +322,7 @@
 	}
 
 	.project2MainHeader {
-		margin-top:70px;
+		margin-top:160px;
 	}
 }
 
@@ -324,7 +332,7 @@
 	}
 
 	.project2MainHeader {
-		margin-top:60px;
+		margin-top:155px;
 	}
 
 	.project2Text,

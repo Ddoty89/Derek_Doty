@@ -32,7 +32,7 @@
 }
 
 .bio {
-	height:420px;
+	height:450px;
 	overflow: scroll;
 }
 
@@ -84,7 +84,8 @@
 }
 
 .project3MainHeader {
-	margin:30px;
+	margin-top:130px;
+	margin-bottom: 50px;
 	text-align: center;
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 }
@@ -148,7 +149,8 @@
 }
 
 .project2MainHeader {
-	margin:30px;
+	margin-top:160px;
+	margin-bottom: 50px;
 	text-align: center;	
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 }
@@ -207,11 +209,12 @@
 
 
 .project1 {
-	height:400px;
+	height:520px;
 }
 
 .project1MainHeader {
-	margin:30px;
+	margin-top:160px;
+	margin-bottom: 50px;
 	text-align: center;
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;	
 }
@@ -283,6 +286,10 @@
 }
 
 /*FOOTER*/
+
+h1 {
+	font-size:45px;
+}
 
 .HTML,
 .CSS,
