@@ -161,13 +161,14 @@
 }
 
 .techUpContainer {
-	width:48%;
+	width:49%;
 	text-align: center;
 }
 
 .techUp {
 	width:90%;
 	height:40%;
+	border:1px solid black;
 }
 
 .techUpLink {
@@ -183,7 +184,7 @@
 }
 
 .project2Content {
-	width:49%;
+	width:50%;
 	text-align: center;
 }
 
@@ -193,7 +194,7 @@
 }
 
 .project2Header {
-	margin:30px;
+	margin:20px;
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 }
 
