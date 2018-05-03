@@ -127,6 +127,10 @@
 	.project2MainHeader {
 		margin-top:140px;
 	}
+
+	/*Moved project 2 picture to match layout of other projects
+	when in mobile format using position:absolute*/
+
 	.techUpContainer,
 	.project2Content {
 		width:100vw;
