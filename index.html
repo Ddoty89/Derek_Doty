@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-	<title>Derek Doty - Full stack developer extraordinaire</title>
+	<title>Derek Doty - Fullstack Developer extraordinaire</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="main.css" media="screen">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -16,51 +17,58 @@
 	<!-- Accessiblity compliance -->
 
 	<header role='banner' class='header'>
-		<h2 class='nav'>Derek Doty</h2>
-		<h2 class='nav'>Fullstack Web Developer</h2>
+		<nav class='navBar'>
+			<a class='navButton' href='#bioMainHeader'><h1>Bio</h1></a>
+			<a class='navButton' href='#project3MainHeader'><h1>Gym Buddy</h1></a>
+			<a class='navButton' href='#project2MainHeader'><h1>Tech-Up</h1></a>
+			<a class='navButton' href='#project1MainHeader'><h1>Doctor Finder</h1></a>
+		</nav>
 		<img class='hero' src='https://jointmedias.com/wp-content/uploads/2016/06/Computer-Glow_v2.gif' >
 	</header>
 	<main role='main' class='main'>
 		<div class='bio'>
 			<div class='bioContainer'>
+
+				<h1 id='bioMainHeader' class='bioMainHeader'>Derek in a nutshell:</h1>
+
 				<p class='bioContent'>
-				I am graduate of Thinkful's Full Stack Flex program. An in-depth, self paced curriculum
-				which has taught me the practical skills of web development. It is incredibly rewarding
-				for me to be able to solve all kinds of coding projects while creating useful web applications.
+				I am graduate of Thinkful's Full Stack Flex program. An in-depth, self paced curriculum which has taught me the practical skills of web development. It is incredibly rewarding for me to be able to solve all kinds of coding projects while creating useful web applications.
 				</p>
 
-				<p class='bioContent p2'> 
-				I am a quick learner and enjoy discovering new aspects of coding that can help me deliever
-				a better product for consumers. I cannot wait to use the skills I have learned with Thinkful
-				as a professional.
-				</p>
-			</div>
-
-			<div class='bioImages'>
 				<img 
 					alt='Coding' 
 					class='coding'
 					src='https://github.com/Ddoty89/Protfolio_Image/blob/master/Coding_IMG.png?raw=true'
-				>
+				> 
+
+				<p class='bioContent p2'> 
+				I have always enjoyed learning new thing which is why changing my career to become a developer has been exhilarating. It is also why riding a motorcyle, spending time outdoors and being a father of two wonderful kids has been a great way to spend my free time.
+				</p>	
 
 				<img 
 					alt='Database' 
 					class='database'
 					src='https://github.com/Ddoty89/Protfolio_Image/blob/master/Database_IMG.png?raw=true'
-				>
+				>			
+
+				<p class='bioContent p3'> 
+				I am a quick learner and enjoy discovering new aspects of coding that can help me deliever
+				a better product for consumers. I cannot wait to use the skills I have learned with Thinkful
+				as a professional.
+				</p>
 
 				<img 
 					alt='Files' 
 					class='files'
 					src='https://github.com/Ddoty89/Protfolio_Image/blob/master/Files_IMG.png?raw=true'
 				>
-
+				
 			</div> 
 
 		</div>
 
 		<div class='project3'>
-			<h1 class='project3MainHeader'>Gym Buddy</h1>
+			<h1 id='project3MainHeader' class='project3MainHeader'>Gym Buddy</h1>
 
 			<div class='gymBuddyContainer'>
 				<img 
@@ -68,7 +76,29 @@
 					class='gymBuddy'
 					src='https://github.com/Ddoty89/Protfolio_Image/blob/master/Gym_IMG.jpeg?raw=true'
 				>
-				<a class='gymBuddyLink' target='blank' href='https://gym-buddy.netlify.com'>Demo: Gym Buddy</a>
+				<button class='gymBuddyLinkButton'>
+					<a class='gymBuddyLink' target='blank' href='https://gym-buddy.netlify.com'>Live Demo</a>
+				</button>
+				<div class='fEWrapper'>
+					<a class='gymBuddyGHLink' target='blank' href='https://github.com/Ddoty89/gym-buddy'>
+						<img
+							alt='Gym Buddy Repository'
+							class='gymBuddyGHImg FE'
+							src='https://github.com/Ddoty89/Protfolio_Image/blob/master/GitHub-Mark-32px.png?raw=true'
+						>
+					</a>
+					<p class='fEText'>Front End</p>
+				</div>
+				<div class='bEWrapper'>
+					<a class='gymBuddyGHLinkBE' target='blank' href='https://github.com/Ddoty89/gym-buddy-backend'>
+						<img
+							alt='Gym Buddy Repository'
+							class='gymBuddyGHImg BE'
+							src='https://github.com/Ddoty89/Protfolio_Image/blob/master/GitHub-Mark-32px.png?raw=true'
+						>
+					</a>
+					<p class='bEText'>Back End</p>
+				</div>
 			</div>
 
 			<div class='project3Content'>
@@ -114,7 +144,7 @@
 		</div>
 
 		<div class='project2'>
-			<h1 class='project2MainHeader'>Tech-Up</h1>
+			<h1 id='project2MainHeader' class='project2MainHeader'>Tech-Up</h1>
 
 			<div class='project2Content'>
 				<p class='project2Text'>
@@ -163,12 +193,24 @@
 					class='techUp'
 					src='https://github.com/Ddoty89/Protfolio_Image/blob/master/Tech_Items_IMG.jpg?raw=true'
 				>
-				<a class='techUpLink' target='blank' href='https://peaceful-hamlet-58413.herokuapp.com//'>Demo: Tech-Up</a>
+				<button class='tech-UpDemoButton'>
+					<a class='techUpLink' target='blank' href='https://mysterious-beyond-62346.herokuapp.com/newItem.html'>Live Demo</a>
+				</button>
+				<div class='tUWrapper'>
+					<a class='tech-UpGHLink' target='blank' href='https://github.com/Ddoty89/e-commerce-capstone'>
+						<img
+							alt='Tech-Up Repository'
+							class='tech-upGHImg'
+							src='https://github.com/Ddoty89/Protfolio_Image/blob/master/GitHub-Mark-32px.png?raw=true'
+						>
+					</a>
+					<p class='tUText'>Tech-Up</p>
+				</div>
 			</div>
 		</div>
 
 		<div class='project1'>
-			<h1 class='project1MainHeader'>Doctor Finder</h1>
+			<h1 id='project1MainHeader' class='project1MainHeader'>Doctor Finder</h1>
 
 			<div class='medicalContainer'>
 				<img 
@@ -176,7 +218,19 @@
 					class='medical'
 					src='https://github.com/Ddoty89/Protfolio_Image/blob/master/Medical_IMG.jpeg?raw=true'
 				>
-				<a class='doctorFinderLink' target='blank' href='https://ddoty89.github.io/doctor_finder/'>Demo: Doctor Finder</a>
+				<button class='dFDemoButton'>
+					<a class='doctorFinderLink' target='blank' href='https://ddoty89.github.io/doctor_finder/'>Live Demo</a>
+				</button>
+				<div class='dFWrapper'>
+					<a class='doctorFinderGHLink' target='blank' href='https://github.com/Ddoty89/doctor_finder'>
+						<img
+							alt='Doctor Finder Repository'
+							class='doctorFinderGHImg'
+							src='https://github.com/Ddoty89/Protfolio_Image/blob/master/GitHub-Mark-32px.png?raw=true'
+						>
+					</a>
+					<p class='dFText'>Doctor Finder</p>
+				</div>
 			</div>
 
 			<div class='project1Content'>
@@ -218,4 +272,5 @@
 	</footer>
 
 </body>
+<script type="text/javascript" src='app.js'></script>
 </html>

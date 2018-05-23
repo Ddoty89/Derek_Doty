@@ -17,6 +17,17 @@
 	color:white;
 }
 
+.navBar {
+	text-align:center;
+}
+
+.navButton {
+	color:white;
+	text-decoration:none;
+	display: inline-block;
+	margin:10px 30px;
+}
+
 .main {
 	max-width: 1000px;
 	margin:auto;
@@ -32,32 +43,34 @@
 }
 
 .bio {
-	height:450px;
+	height:2000px;
 	overflow: scroll;
+}
+
+.bioMainHeader {
+	text-align: center;
+	margin-top:50px;
 }
 
 .bioContainer {
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
-	width:60%;
+	width:100%;
 	font-size:29px;
-	overflow: auto;
 	margin-left: 10px;
 }
 
-.bioImages {
-	width:39%;
-	position:absolute;
-}
-
-.bioContainer,
-.bioImages {
-	display:inline-block;
+.bioContent {
+	padding:100px 15px;
+	width:750px;
+	text-align: center;
+	margin:auto;
 }
 
 .coding,
 .database,
 .files {
-	width:120px;
+	height:175px;
+	width:175px;
 	display: block;
 	margin:auto;
 }
@@ -65,10 +78,6 @@
 .database {
 	margin-top:20px;
 	margin-bottom:20px;
-}
-
-.p2 {
-	margin-top:30px;
 }
 
 
@@ -80,12 +89,11 @@
 
 .project3 {
 	height:400px;
-
 }
 
 .project3MainHeader {
-	margin-top:130px;
-	margin-bottom: 50px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	text-align: center;
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 }
@@ -95,20 +103,58 @@
 	display: inline-block;
 }
 
+.gymBuddyLinkButton,
+.gymBuddyGHImg {
+	display:block;
+	margin:auto;
+	margin-top:10px;
+}
+
+.gymBuddyLinkButton {
+	width:150px;
+	border-radius: 5px;
+	border:1px solid black;
+}
+
 .gymBuddy,
 .gymBuddyLink{
 	display:block;
 }
 
+.gymBuddyGHImg {
+	display:inline-block;
+	margin-left:10px;
+}
+
+.fEWrapper .fEText {
+	visibility: hidden;
+}
+
+.fEWrapper:hover .fEText {
+	visibility:visible;
+}
+
+.bEWrapper .bEText {
+	visibility: hidden;
+}
+
+.bEWrapper:hover .bEText {
+	visibility:visible;
+}
+
+.fEWrapper,
+.bEWrapper {
+	display:inline-block;
+}
+
 .gymBuddyContainer {
 	width:48%;
 	text-align: center;
-	margin-left: 10px;
 }
 
 .gymBuddy {
 	width:90%;
-	height:40%;
+	margin:auto;
 }
 
 .gymBuddyLink {
@@ -129,7 +175,8 @@
 }
 
 .project3Header {
-	margin:30px;
+	margin-top:100px;
+	margin-bottom:50px;
 }
 
 .project3Header,
@@ -149,8 +196,8 @@
 }
 
 .project2MainHeader {
-	margin-top:160px;
-	margin-bottom: 50px;
+	margin-top:400px;
+	margin-bottom: 100px;
 	text-align: center;	
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 }
@@ -166,9 +213,23 @@
 }
 
 .techUp {
-	width:90%;
+	width:95%;
 	height:40%;
+}
+
+.tech-UpDemoButton {
+	width:150px;
+	border-radius: 5px;
 	border:1px solid black;
+	margin:10px;
+}
+
+.tUWrapper .tUText {
+	visibility: hidden;
+}
+
+.tUWrapper:hover .tUText {
+	visibility:visible;
 }
 
 .techUpLink {
@@ -194,7 +255,8 @@
 }
 
 .project2Header {
-	margin:20px;
+	margin-top:100px;
+	margin:50px;
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 }
 
@@ -210,12 +272,12 @@
 
 
 .project1 {
-	height:520px;
+	height:700px;
 }
 
 .project1MainHeader {
-	margin-top:160px;
-	margin-bottom: 50px;
+	margin-top:400px;
+	margin-bottom: 100px;
 	text-align: center;
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;	
 }
@@ -233,6 +295,13 @@
 .medical {
 	width:90%;
 	height:40%;
+}
+
+.dFDemoButton {
+	width:150px;
+	border-radius: 5px;
+	border:1px solid black;
+	margin:10px;
 }
 
 .doctorFinderLink {
@@ -253,8 +322,17 @@
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 }
 
+.dFWrapper .dFText {
+	visibility: hidden;
+}
+
+.dFWrapper:hover .dFText {
+	visibility:visible;
+}
+
 .project1Header {
-	margin:30px;
+	margin-top:100px;
+	margin-bottom:30px;
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 }
 
@@ -289,7 +367,7 @@
 /*FOOTER*/
 
 h1 {
-	font-size:45px;
+	font-size:35px;
 }
 
 .HTML,
