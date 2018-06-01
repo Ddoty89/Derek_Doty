@@ -351,12 +351,13 @@
 	text-align: center;
 	height:70px;
 	line-height: 70px;
-	background:#606060;	
+	background:#808080;	
 
 }
 
 .github,
-.email {
+.email,
+.linkedin {
 	text-decoration: none;
 	color:black;
 	font-size: 20px;
