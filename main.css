@@ -21,6 +21,7 @@
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	color:white;
 	text-align: center;
+	font-size:30px;
 }
 
 .navBar {
@@ -63,15 +64,16 @@
 .bioContainer {
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 	width:100%;
-	font-size:29px;
 	margin-left: 10px;
+	overflow: auto;
 }
 
 .bioContent {
 	padding:100px 15px;
-	width:750px;
+	width:85%;
 	text-align: center;
 	margin:auto;
+	font-size:29px;
 }
 
 .coding,
@@ -162,7 +164,6 @@
 
 .gymBuddy {
 	width:90%;
-	margin:auto;
 }
 
 .gymBuddyLink {
@@ -375,9 +376,6 @@
 
 /*FOOTER*/
 
-h1 {
-	font-size:30px;
-}
 
 .HTML,
 .CSS,

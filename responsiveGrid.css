@@ -46,6 +46,11 @@
 		height:250px;
 	}
 
+	.bioContent {
+		font-size:25px;
+		max-width:700px;
+	}
+
 	.project3Text {
 		font-size:21px;
 	}
@@ -61,7 +66,11 @@
 
 @media only screen and (max-width: 715px) {
 	.bio {
-		height:430px;
+		height:2000px;
+	}
+
+	.bioMainHeader {
+		font-size:30px;
 	}
 
 	.bioContainer {
@@ -70,9 +79,9 @@
 		margin:10px;
 	}
 
-	.bioImages {
-		margin-left: 15px;
-		width:100vw;
+	.bioContent {
+		font-size:25px;
+		max-width: 650px;
 	}
 
 	.bioContainer,
@@ -84,7 +93,7 @@
 	.database,
 	.files {
 		width:30%;
-		display: inline;
+		/*display: inline;*/
 		height:9%;
 	}
 
@@ -115,7 +124,7 @@
 		width:70%;
 		height:40%;
 		position:relative;
-		left:12%;
+		left:15%;
 	}
 
 	.project3Text {
@@ -125,7 +134,7 @@
 	}
 
 	.project2MainHeader {
-		margin-top:140px;
+		margin-top:500px;
 	}
 
 	/*Moved project 2 picture to match layout of other projects
@@ -154,12 +163,12 @@
 		font-size:24px;
 		margin:20px;
 		position:relative;
-		top:300px;
+		top:400px;
 	}
 
 	.project2Tech {
 		position:relative;
-		top:300px;
+		top:400px;
 	}
 
 	.project1 {
@@ -167,7 +176,7 @@
 	}
 
 	.project1MainHeader {
-		margin-top:450px;
+		margin-top:700px;
 	}
 
 	.medical {
@@ -196,6 +205,10 @@
 		width:100vw;
 	}
 
+	.dFDemoButton {
+		height:30px;
+	}
+
 	.footer {
 		margin-top:100px;
 	}
@@ -216,14 +229,14 @@
 
 	.project2Text,
 	.project2Tech {
-		top:280px;
+		top:400px;
 	}
 }
 
 @media only screen and (max-width: 620px) {
 	.project2Text,
 	.project2Tech {
-		top:250px;
+		top:400px;
 	}
 
 	.project2 {
@@ -259,13 +272,9 @@
 		height:580px;
 	}
 
-	.project2MainHeader {
-		margin-top:170px;
-	}
-
 	.project2Text,
 	.project2Tech {
-		top:220px;
+		top:350px;
 	}
 
 	.project2 {
@@ -289,7 +298,7 @@
 
 	.project2Text,
 	.project2Tech {
-		top:200px;
+		top:300px;
 	}
 
 	.project1Text {
@@ -310,17 +319,25 @@
 }
 
 @media only screen and (max-width: 410px) {
+	.bio {
+		height:2100px;
+	}
+
 	.project2MainHeader {
-		margin-top:170px;
+		margin-top:550px;
 	}
 
 	.project2Text,
 	.project2Tech {
-		top:190px;
+		top:275px;
 	}
 }
 
 @media only screen and (max-width: 340px) {
+	.bio {
+		height:2200px;
+	}
+
 	.project3MainHeader {
 		margin-top:140px;
 	}
@@ -332,7 +349,7 @@
 
 @media only screen and (max-width: 320px) {
 	.bio {
-		height:1400px;
+		height:2300px;
 	}
 
 	.project3MainHeader {
@@ -340,7 +357,7 @@
 	}
 
 	.project2MainHeader {
-		margin-top:350px;
+		margin-top:450px;
 	}
 
 	.project2Text,
