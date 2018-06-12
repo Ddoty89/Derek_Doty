@@ -202,6 +202,10 @@
 }
 
 @media only screen and (max-width: 680px) {
+	.navButton {
+		display:block;
+	}
+
 	.bioContainer {
 		font-size:22px;
 	}
@@ -327,20 +331,31 @@
 }
 
 @media only screen and (max-width: 320px) {
+	.bio {
+		height:1400px;
+	}
+
 	.project3MainHeader {
 		margin-top:150px;
 	}
 
 	.project2MainHeader {
-		margin-top:155px;
+		margin-top:350px;
 	}
 
 	.project2Text,
 	.project2Tech {
-		top:150px;
+		top:200px;
 	}
 
 	.project2 {
 		height:330px;
+	}
+
+	.github,
+	.email,
+	.linkedin {
+		font-size: 18px;
+		margin:10px;
 	}
 }
