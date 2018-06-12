@@ -21,7 +21,6 @@
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	color:white;
 	text-align: center;
-	font-size:32px;
 }
 
 .navBar {
@@ -34,7 +33,6 @@
 	text-decoration:none;
 	display: inline-block;
 	margin:10px 30px;
-	font-size: 32px;
 }
 
 .main {
@@ -378,7 +376,7 @@
 /*FOOTER*/
 
 h1 {
-	font-size:35px;
+	font-size:30px;
 }
 
 .HTML,
