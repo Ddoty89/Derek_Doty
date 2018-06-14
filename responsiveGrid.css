@@ -41,6 +41,10 @@
 }
 
 @media only screen and (max-width: 770px) {
+	.navButton {
+		margin:10px 10px;
+	}
+
 	.hero {
 		width:100vw;
 		height:250px;
@@ -216,7 +220,7 @@
 
 @media only screen and (max-width: 680px) {
 	.navButton {
-		display:block;
+		margin:10px 5px;
 	}
 
 	.bioContainer {
@@ -245,6 +249,17 @@
 }
 
 @media only screen and (max-width: 590px) {
+	.name,
+	.navBar {
+		display:block;
+		float:left;
+	}
+
+	.navButton {
+		display:block;
+		width:155px;
+	}
+
 	.project3MainHeader {
 		margin-top:130px;
 	}
