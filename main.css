@@ -102,6 +102,92 @@
 
 /*BIO SECTION*/
 
+/*PROJECT 4*/
+
+
+.project4 {
+	height:700px;
+}
+
+.project4MainHeader {
+	margin-top:150px;
+	margin-bottom: 100px;
+	text-align: center;	
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	color:#005ce6;
+}
+
+.zephyrMediaContainer,
+.project4Content {
+	display: inline-block;
+}
+
+.zephyrMediaContainer {
+	width:49%;
+	text-align: center;
+}
+
+.zephyrMedia {
+	width:95%;
+	height:40%;
+}
+
+.zephyrMediaLinkButton {
+	width:150px;
+	border-radius: 5px;
+	border:1px solid black;
+	margin:10px;
+}
+
+.zMWrapper .zMText {
+	visibility: hidden;
+}
+
+.zMWrapper:hover .zMText {
+	visibility:visible;
+}
+
+.zephyrMediaLink {
+	font-size:20px;
+	color:black;
+	text-decoration: none;
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+}
+
+.zephyrMediaLink:hover {
+	background:#005ce6;
+	color:white;
+}
+
+.zephyrMedia,
+.zephyrMediaLink {
+	display:block;
+}
+
+.project4Content {
+	width:50%;
+	text-align: center;
+}
+
+.project4Text {
+	font-size:27px;
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+}
+
+.project4Header {
+	margin-top:100px;
+	margin:50px;
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+}
+
+.project4Header,
+.stackDiv {
+	text-align: center;
+
+}
+
+
+/*PROJECT 4*/
 
 /*PROJECT 3*/
 

@@ -31,6 +31,10 @@
 		font-size:26px;
 	}
 
+	.project4Text {
+		font-size:22px;
+	}
+
 	.project3Text {
 		font-size:22px;
 	}
@@ -53,6 +57,10 @@
 	.bioContent {
 		font-size:25px;
 		max-width:700px;
+	}
+
+	.project4Text {
+		font-size:21px;
 	}
 
 	.project3Text {
@@ -97,7 +105,6 @@
 	.database,
 	.files {
 		width:30%;
-		/*display: inline;*/
 		height:9%;
 	}
 
@@ -108,6 +115,32 @@
 
 	.p2 {
 		margin-top:10px;
+	}
+
+	.project4 {
+		position:relative;
+		height:1050px;
+		margin:auto;
+		width: 100%;
+	}
+
+	.project4Content {
+		position:absolute;
+		width:96vw;
+		top:650px;
+	}
+
+	.zephyrMediaContainer {
+		position:absolute;
+		text-align: center;
+		width:100vw;
+	}
+
+	.project4Content,
+	.zephyrMediaContainer {
+		display:block;
+		margin:auto;
+		text-align:center;
 	}
 
 	.project3MainHeader {
@@ -238,6 +271,10 @@
 }
 
 @media only screen and (max-width: 620px) {
+	.project4Content {
+		top:600px;
+	}
+
 	.project2Text,
 	.project2Tech {
 		top:400px;
@@ -258,6 +295,10 @@
 	.navButton {
 		display:block;
 		width:155px;
+	}
+
+	.project4Content {
+		top:575px;
 	}
 
 	.project3MainHeader {
@@ -307,8 +348,17 @@
 		height:150px;
 	}
 
+	.project4Content {
+		top:530px;
+	}
+
 	.project3MainHeader {
 		margin-top:120px;
+	}
+
+	.project4Text,
+	.project4Tech {
+		top:200px;
 	}
 
 	.project2Text,
@@ -338,6 +388,10 @@
 		height:2100px;
 	}
 
+	.project4Content {
+		top:500px;
+	}
+
 	.project2MainHeader {
 		margin-top:550px;
 	}
@@ -351,6 +405,10 @@
 @media only screen and (max-width: 340px) {
 	.bio {
 		height:2200px;
+	}
+
+	.project4Content {
+		top:470px;
 	}
 
 	.project3MainHeader {
